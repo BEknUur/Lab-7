@@ -38,7 +38,7 @@ while run:
     genminhand = pygame.transform.rotate(minhand, -1*((6*minvalue1)%360))
     genminrect = genminhand.get_rect()
     genminrect.center = minrect.center
-
+ 
     screen.blit(genminhand,genminrect)
 
     gensechand = pygame.transform.rotate(sechand, -1*((6*secvalue1+180)%360))
